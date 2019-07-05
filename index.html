@@ -32,14 +32,16 @@
         body {
             margin: 0;
             padding: 0;
-            /*            background-image: <img class="max-image-width" src="graphics/Badlands1.jpg";*/
+            /*            background-image: src="graphics/Badlands1.jpg";*/
             /*            background: #90E8F2;*/
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-image: url("graphics/Badlands1.JPG"), url("graphics/Roughlock%Falls%Trails1.JPG");
+            /*            background-repeat: repeat-y;*/
+            /*            background-repeat: repeat;*/
+            background-size: auto;
             font-family: 'Lato', sans-serif;
             font-weight: 200;
-            color: #FD0606;
+            color: #3008CE;
+            text-shadow: 3px 3px 9px grey;
             font-size: 0.8em;
         }
 
@@ -66,13 +68,13 @@
             font-size: 1.2em;
             letter-spacing: .04em;
             font-style: italic;
-            margin: 0 0 25px 0;
+            margin: 0 0 15px 0;
         }
 
         p {
             font-family: 'Open Sans', sans-serif;
             font-size: 1.15em;
-            line-height: 1.4em;
+            line-height: 1.3em;
             margin: 0 0 15px 0;
             color: #000000;
             padding-bottom: 2px;
@@ -184,9 +186,10 @@
 <body>
 
     <section>
-        <a href='https://api.mapbox.com/styles/v1/tscholten/cjxdj8ucd05c91cmrjda8tqu4.html?fresh=true&title=true&access_token=pk.eyJ1IjoidHNjaG9sdGVuIiwiYSI6ImNqYWhnOHBiaDFteWkzMnBkazJrZGUzaWEifQ.yQIFH0xDSF8DNeccdgooZA#5.4/43.977961/-95.932148/0' class="linkbox"> Full - screen version </a>
+        <a href='https://api.mapbox.com/styles/v1/tscholten/cjxdj8ucd05c91cmrjda8tqu4.html?fresh=true&title=true&access_token=pk.eyJ1IjoidHNjaG9sdGVuIiwiYSI6ImNqYWhnOHBiaDFteWkzMnBkazJrZGUzaWEifQ.yQIFH0xDSF8DNeccdgooZA#5.4/43.977961/-95.932148/0' class="linkbox"></a>
         <!--        <img class="max-image-width" src="DevilsTower1.jpg" title="Devils Tower">-->
         <h1>2019 Road Trip of the Northern Great Plains</h1>
+        <h2>Created by Tom Scholten</h2>
         <h2>The University of Kentucky, New Maps Plus</h2>
 
         <div id='map'></div>
@@ -219,7 +222,7 @@
             }));
 
         </script>
-        <a href='https://api.mapbox.com/styles/v1/tscholten/cjxdj8ucd05c91cmrjda8tqu4.html?fresh=true&title=true&access_token=pk.eyJ1IjoidHNjaG9sdGVuIiwiYSI6ImNqYWhnOHBiaDFteWkzMnBkazJrZGUzaWEifQ.yQIFH0xDSF8DNeccdgooZA#5.4/43.977961/-95.932148/0' class="linkbox"> <b>Full screen version</a></b>
+        <a href='https://api.mapbox.com/styles/v1/tscholten/cjxdj8ucd05c91cmrjda8tqu4.html?fresh=true&title=true&access_token=pk.eyJ1IjoidHNjaG9sdGVuIiwiYSI6ImNqYWhnOHBiaDFteWkzMnBkazJrZGUzaWEifQ.yQIFH0xDSF8DNeccdgooZA#5.4/43.977961/-95.932148/0' class="linkbox"> <b>Full screen version of road map</a></b>
 
         <div class="row">
             <div class="row">
