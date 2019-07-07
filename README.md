@@ -20,5 +20,5 @@ Working with numberous CSS and HTML refinements to create a visually and interac
 <ul>
 <li>Style datasets in Mapbox for point locations, line segments, and feature labels.</li>
 <li>A seperate geojson file needed to be created of a smaller set of locations to visualize to highligh key areas or locations that would also help to provide reference on the map.</li>
-<li>Utilize a technology and software flow the included Bracets as my text editor, GitHub to store my data in repositories and serve as a version control</li>
+<li>Utilize a technology and software flow the included Bracets as my text editor, GitHub to store my data in repositories and serve as a version control.</li>
 </ul>
