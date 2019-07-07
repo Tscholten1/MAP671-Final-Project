@@ -11,14 +11,14 @@ Creating a process to export Google location data from my Google account into a 
 
 Working with numberous CSS and HTML refinements to create a visually and interactively pleasing map. Specific elements that I explored and used include:
     <ul>
-    <ul>Resizing large (both in pixels and megabytes) photos</ul>
-    <ul>Placment of photos within a two column web page</ul>
-    <ul>Including a Mapbox map within my web page</ul>
-    <ul>Creating hyperlinks for provide readers a convenient way to gain additional information on the location or site that was visited.</ul>
+    <li>Resizing large (both in pixels and megabytes) photos</li>
+    <li>Placment of photos within a two column web page</li>
+    <li>Including a Mapbox map within my web page</li>
+    <li>Creating hyperlinks for provide readers a convenient way to gain additional information on the location or site that was visited.</li>
 </ul>
 
 <ul>
-<ul>Style datasets in Mapbox for point locations, line segments, and feature labels.</ul>
-<ul>A seperate geojson file needed to be created of a smaller set of locations to visualize to highligh key areas or locations that would also help to provide reference on the map.</ul>
-<ul>Utilize a technology and software flow the included Bracets as my text editor, GitHub to store my data in repositories and serve as a version control</ul>
+<li>Style datasets in Mapbox for point locations, line segments, and feature labels.</li>
+<li>A seperate geojson file needed to be created of a smaller set of locations to visualize to highligh key areas or locations that would also help to provide reference on the map.</li>
+<li>Utilize a technology and software flow the included Bracets as my text editor, GitHub to store my data in repositories and serve as a version control</li>
 </ul>
