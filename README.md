@@ -5,16 +5,20 @@ Creating a process to export Google location data from my Google account into a 
         <li>Exporting data from the location history from Google. Because Google allows only exporting in monthly time frames, I had to export each day for the time frame that I wanted as a .KML file.</li>
         <li>Upon exporting each day's data, I then uploaded that data to Geojson.io where I was able to see and verify all point locations.</li>
         <li>Next, I was able to export all 15 days of individual .KML files as one geojson file which was then uploaded to Mapbox.</li>
-        <li></li>
-        <li></li>
+        <li>Two duplicate files were made of this dataset to show a line segment of my travel route and a second to show point locations</li>
+        <li>These two datasets were then style with color and size to create a visually appealing map feature.</li>
     </ul>
-    
-Style datasets in Mapbox for point locations, line segments, and feature labels.
-A seperate geojson file needed to be created of a smaller set of locations to visualize to highligh key areas or locations that would also help to provide reference on the map.
-Working with numberous CSS and HTML refinements to create a pleasing layout. Specific elements that I explored and used include:
+
+Working with numberous CSS and HTML refinements to create a visually and interactively pleasing map. Specific elements that I explored and used include:
     <ul>
-    <ul>1).Resizing large (both in pixels and megabytes) photos</ul>
-    <ul>2).Placment of photos within a two column web page</ul>
-    <ul>3).Including a Mapbox map within my web page</ul>
-    <ul>4).Creating hyperlinks for provide readers a convenient way to gain additional information on the location or site that was visited.</ul>
+    <ul>Resizing large (both in pixels and megabytes) photos</ul>
+    <ul>Placment of photos within a two column web page</ul>
+    <ul>Including a Mapbox map within my web page</ul>
+    <ul>Creating hyperlinks for provide readers a convenient way to gain additional information on the location or site that was visited.</ul>
+</ul>
+
+<ul>
+<ul>Style datasets in Mapbox for point locations, line segments, and feature labels.</ul>
+<ul>A seperate geojson file needed to be created of a smaller set of locations to visualize to highligh key areas or locations that would also help to provide reference on the map.</ul>
+<ul>Utilize a technology and software flow the included Bracets as my text editor, GitHub to store my data in repositories and serve as a version control</ul>
 </ul>
